@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biglex J</title>
+    <link rel="icon" type="image/x-icon" href="assets/Marca/Logo.ico">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="loader"></div>
+    <div class="message">Redireccionando a la página principal...</div>
+    <div class="links">
+        <a href="src/home.html">Ir a la página principal</a>
+        <a href="src/components/Auth/login/login.html">Iniciar sesión</a>
+        <a href="src/components/Auth/register/register.html">Registrarse</a>
+    </div>
+
+    <script>
+        setTimeout(function() {
+            window.location.href = "src/home.html";
+        }, 3000);
+    </script>
+</body>
+</html>
